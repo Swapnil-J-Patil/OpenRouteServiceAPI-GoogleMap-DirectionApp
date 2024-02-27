@@ -80,7 +80,6 @@ import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin
 
-
 class MainActivity : ComponentActivity()  {
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private lateinit var locationCallback: LocationCallback
@@ -305,7 +304,7 @@ class MainActivity : ComponentActivity()  {
         CoroutineScope(Dispatchers.IO).launch {
             val call = getRetrofit().create(ApiService::class.java)
                 .getRoute(
-                    "5b3ce3597851110001cf62480548dffe0e2a42f4b29193a1b731680e",
+                    "Your_API_KEY",
                     "${startLocation.longitude},${startLocation.latitude}",
                     "72.932034,18.879959"
                 )

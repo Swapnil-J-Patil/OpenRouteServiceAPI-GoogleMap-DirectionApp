@@ -16,7 +16,7 @@
         android:theme="@style/Theme.DirectionApp"
         tools:targetApi="31">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBFuooy3nPT-1GTz7lvH2YkRECwnUgKQho"/>
+            android:value="Your_API_KEY"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
