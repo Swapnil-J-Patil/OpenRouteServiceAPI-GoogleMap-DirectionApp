@@ -81,7 +81,7 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 
-class MainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity()  {
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private lateinit var locationCallback: LocationCallback
     private var locationRequired: Boolean = false
