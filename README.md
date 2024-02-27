@@ -5,4 +5,4 @@ Replace your API key in Manifest file and in MainActivity.kt.
 <br>
 If you want some reference watch this video, he have used xml but I have used jetpack compose: https://youtu.be/_6EeTp4GxLo
 <br><br>
-![route](https://github.com/Swapnil-J-Patil/GoogleMapDirectionApp/assets/129786110/fcee5abc-c964-4d5e-b9ce-7383b042f37f)
+![routeNavigation](https://github.com/Swapnil-J-Patil/GoogleMapDirectionApp/assets/129786110/1ab5f3a5-6266-464e-ad17-669133d7aa93)
